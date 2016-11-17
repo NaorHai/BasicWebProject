@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body
+{
+	padding: 10px;
+	margin: 0px;
+	height: 100%;
+	background-color: lightgray;
+		  font-family: "Alef Hebrew",
+               “Helvetica Neue”,
+               Helvetica,
+               Arial,
+               sans-serif;
+}
+#wrapper
+{
+	margin: auto;
+	max-width: 1200px;
+	border: black solid 1px;
+	border-radius: 10px;
+}
+#title
+{
+	background-image: url(../img/home.jpg);
+	text-align: center;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#mainbar
+{
+	text-align: right;
+    background-color:#00394d;
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
+}
+#container
+{}
+#board
+{
+	display: inline-block;
+	width: 980px;
+	min-height: 700px;
+	text-align: right;
+	vertical-align: top;
+	background-color: #b3ccff;
+	padding: 5px 5px;
+	padding-right: 20px;
+}
+p
+{
+	direction: rtl;
+	line-height: 150%;
+	font-size: 120%;
+}
+#sidebar
+{
+    background-color:#00394d;
+	color: white;
+	min-height: 710px;
+	position: absolute;
+	display: inline-block;
+	width: 195px;
+	direction: rtl;
+	vertical-align: top;
+
+}
+#footer
+{
+	background-image: url(../img/home.jpg);
+	color: white;
+	text-align: center;
+	padding: 2px;
+	border-top: 1px solid black;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#menu
+{
+	margin: 0px;
+	direction: rtl;
+	font-size: 110%;
+	margin-right: -40px;
+}
+#menu> li
+{
+	display: inline-block;
+}
+#menu>li>a
+{
+	padding: 2px 44px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#menu li .submenu
+{
+	z-index: 999;
+    background-color:#00394d;
+	position: absolute;
+	display: none;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 0px;
+}
+#menu .submenu li a
+{
+	color: white;
+	direction: rtl;
+	display: block;
+	font-size: 80%;
+	text-decoration: none;
+	padding: 2px 45px;
+}
+#menu li:hover .submenu
+{
+	display: block;
+}
+#menu a:hover
+{
+    background: #ffffff;
+	color: #00a8e6 !important;
+ ;
+}
+#menu .submenu a:hover
+{
+	background: #ffffff;
+	color: #00a8e6 !important;
+}
+.current_bold
+{
+	font-weight: bold;
+}
+.current_white
+{
+	background-color: #00a8e6 !important;
+}
+.current_white a
+{
+	color: white !important;
+}
+#right 
+{
+	list-style-type: none;
+}
+#right a
+{
+	list-style-type: none;
+	color: #00a8e6;
+	text-decoration: none;
+}
+.video
+{
+	margin-right: 200px;
+	 width:560px;
+	 height:315px; 
+}
+
+
+
+
+
+
+
+
